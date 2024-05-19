@@ -11,6 +11,7 @@ export default class DrumsLiveScreen extends Component {
   }
 }
 
+
 const styles = StyleSheet.create({
   container:{ 
     alignSelf: 'center', 
