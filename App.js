@@ -21,6 +21,8 @@ import DrumsOrderScreen from './screens/DrumsOrderScreen';
 import ViolinLiveScreen from './screens/ViolinLiveScreen';
 import ViolinVideoScreen from './screens/ViolinVideoScreen';
 import ViolinOrderScreen from './screens/ViolinOrderScreen';
+import ShoppingCart from './ShoppingCart';
+
 
 export default class App extends React.Component {
   render() {
@@ -51,6 +53,7 @@ var AppNavigator = createSwitchNavigator({
   ViolinLiveScreen: ViolinLiveScreen,
   ViolinVideoScreen: ViolinVideoScreen,
   ViolinOrderScreen: ViolinOrderScreen,
+  ShoppingCart: ShoppingCart
 });
 
 const AppContainer = createAppContainer(AppNavigator);
